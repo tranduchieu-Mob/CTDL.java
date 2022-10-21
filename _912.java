@@ -41,3 +41,32 @@ public class _912 {
         System.out.println(Arrays.toString(nums));
     }
 }
+    //724
+    // public static int pivotIndex(int[] nums) {
+    // int totalSum = 0;
+    // int leftsum = 0;
+    // for (int num : nums)
+    // totalSum += num;
+    // for (int i = 0; i < nums.length; leftsum += nums[i++])
+    // if (leftsum * 2 == totalSum - nums[i])
+    // return i;
+    // return -1;
+    // }
+
+    // public static int pivotIndex(int[] nums) {
+    // if (nums.length == 0) {
+    // return -1;
+    // }
+    // int leftSum = 0, rightSum = 0;
+    // for (int num : nums) {
+    // rightSum += num;
+    // }
+    // for (int i = 0; i < nums.length; i++) {
+    // rightSum -= nums[i];
+    // if (rightSum == leftSum)
+    // return i;
+    // leftSum += nums[i];
+    // }
+    // return -1;
+    // }
+

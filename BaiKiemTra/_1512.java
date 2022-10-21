@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class _1512 {
     public static int numIdenticalPairs(int[] nums) {
         int i=0,j=0,k=0;
